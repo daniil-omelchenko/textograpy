@@ -5,7 +5,7 @@ from PIL import ImageFont
 from PIL import ImageDraw
 
 
-RESOURCES_PATH = os.path.join(os.path.dirname(__file__), '/../resources/')
+RESOURCES_PATH = os.path.join(os.path.dirname(__file__), '../resources/')
 
 
 def textify_matrix(m):
