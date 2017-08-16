@@ -11,6 +11,6 @@ setup(
     author_email='dpixelstudio@gmail.com',
     url='https://github.com/daniil-omelchenko/textograpy',
     download_url='https://github.com/daniil-omelchenko/textograpy/archive/master.zip',
-    keywords=[
-        'textography'],
-    classifiers=[])
+    keywords=['textography'],
+    classifiers=[],
+    package_data={'': ['resources/*']})

@@ -12,7 +12,7 @@ def get_letter(char):
     width = 18
     img = Image.new('RGB', (width, height))
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype('Courier New.ttf', height)
+    font = ImageFont.truetype('resources/courier_new.ttf', height)
     draw.text((0, 0), char, (255, 255, 255), font=font)
     t = []
     for i in range(height):
