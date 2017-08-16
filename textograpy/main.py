@@ -5,7 +5,7 @@ from PIL import ImageFont
 from PIL import ImageDraw
 
 
-RESOURCES_PATH = os.path.join(os.path.dirname(__file__), '/../resources/')
+RESOURCES_PATH = os.path.join(os.path.dirname(__file__), u'/../resources/')
 
 
 def textify_matrix(m):
@@ -17,7 +17,7 @@ def get_letter(char):
     width = 18
     img = Image.new('RGB', (width, height))
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype(RESOURCES_PATH + 'courier_new.ttf', height)
+    font = ImageFont.truetype(RESOURCES_PATH + u'courier_new.ttf', height)
     draw.text((0, 0), char, (255, 255, 255), font=font)
     t = []
     for i in range(height):
