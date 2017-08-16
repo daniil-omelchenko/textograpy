@@ -10,9 +10,7 @@ setup(
     license='MIT',
     author_email='dpixelstudio@gmail.com',
     url='https://github.com/daniil-omelchenko/textograpy',
-    download_url='https://github.com/daniil-omelchenko/'
-                 'timepy/archive/master.zip',
+    download_url='https://github.com/daniil-omelchenko/textograpy/archive/master.zip',
     keywords=[
-        'timer', 'debugging', 'testing', 'measurement', 'performance',
-        'logging'],
+        'textography'],
     classifiers=[])
