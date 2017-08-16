@@ -13,4 +13,4 @@ setup(
     download_url='https://github.com/daniil-omelchenko/textograpy/archive/master.zip',
     keywords=['textography'],
     classifiers=[],
-    data_files={'': ['resources/*.*']})
+    data_files={'': ['../resources/*.*']})
